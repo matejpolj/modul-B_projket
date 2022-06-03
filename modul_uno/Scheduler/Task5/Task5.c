@@ -70,6 +70,7 @@ void Task5_statusMaker(void)
 
         if (but & (1<<BUTR)) {
             status++;
+            if (lv1 == 0) statusFill++;
             sumlevel += level;
             lv3 = level/10;
             level = 0;
@@ -82,11 +83,14 @@ void Task5_statusMaker(void)
         if (statusFill == 0) {
             if (time >= (k*lv1)) {
                 statusFill++;
+                if (lv2 == 0) statusFill++;
+                if (lv3 == 0) statusFill++;
                 time = 0;
             }
         } else if (statusFill == 1) {
             if (time >= (k*lv2)) {
                 statusFill++;
+                if (lv3 == 0) statusFill++;
                 time = 0;
             }
         } else if (statusFill == 2) {
@@ -108,3 +112,4 @@ void Task5_statusMaker(void)
         status = 5;
     }
 }
+
