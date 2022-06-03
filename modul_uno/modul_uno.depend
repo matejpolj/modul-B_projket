@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1653223565 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/fuse.c
+	<avr/io.h>
+
+1598887953 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/i2c.c
+	<avr/io.h>
+	"i2c.h"
+
+1651490362 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/i2c.h
+	<stdlib.h>
+	<avr/io.h>
+
+1619599969 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/lcd.c
+	"lcd.h"
+	<stdarg.h>
+	<stdio.h>
+	<util/delay.h>
+
+1653284646 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/lcd.h
+	<avr/io.h>
+
+1653228662 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/ledNbutton.c
+	"ledNbutton.h"
+	"utils.h"
+	"config.h"
+
+1651503015 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/ledNbutton.h
+
+1651499506 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/utils.h
+
+1653228581 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/config.h
+	<avr/io.h>
+
+1653284994 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/main.c
+	<stdio.h>
+	"inc/task.h"
+	"inc/util.h"
+	"inc/common.h"
+	<avr/io.h>
+	<avr/interrupt.h>
+	<avr/io.h>
+	<util/delay.h>
+	"config.h"
+	"ledNbutton.h"
+	"utils.h"
+	"LCD.h"
+	"SSD1306.h"
+
+1577748450 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/inc/task.h
+
+1577748450 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/inc/util.h
+
+1577748450 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/inc/common.h
+
+1628629140 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/SSD1306.h
+	<stdio.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1653224042 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/src/task.c
+	<stdio.h>
+	"../inc/common.h"
+	<avr/interrupt.h>
+	<string.h>
+	<stdlib.h>
+	<avr/sleep.h>
+
+1577748450 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/src/util.c
+	<stdio.h>
+	<avr/io.h>
+
+1628629140 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/SSD1306.c
+	<stdio.h>
+	"SSD1306.h"
+	<stdio.h>
+	<stdarg.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"i2c.h"
+
+1653285030 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/utils.c
+	"utils.h"
+	"config.h"
+	"LCD.h"
+
+1606600404 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/LCD.c
+	"LCD.h"
+
+1606600404 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/LCD.h
+	"pin_config.h"
+
+1653284980 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modu......./uno/modul_uno/pin_config.h
+	<avr/io.h>
+	<util/delay.h>
+

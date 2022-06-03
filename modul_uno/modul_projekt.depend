@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1651316168 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modul_projekt/fuse.c
+	<avr/io.h>
+
+1598887953 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modul_projekt/i2c.c
+	<avr/io.h>
+	"i2c.h"
+
+1651490362 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modul_projekt/i2c.h
+	<stdlib.h>
+	<avr/io.h>
+
+1615036252 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modul_projekt/lcd.c
+	"lcd.h"
+
+1651498737 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modul_projekt/lcd.h
+	<avr/io.h>
+	<util/delay.h>
+
+1651502797 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modul_projekt/ledNbutton.c
+	"ledNbutton.h"
+	"utils.h"
+	"config.h"
+
+1651503015 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modul_projekt/ledNbutton.h
+
+1651499506 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modul_projekt/utils.h
+
+1651502758 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modul_projekt/config.h
+	<avr/io.h>
+
+1653127603 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modul_projekt/main.c
+	<avr/io.h>
+	<util/delay.h>
+	"config.h"
+	"ledNbutton.h"
+	"utils.h"
+	"lcd.h"
+	"SSD1306.h"
+
+1628629140 /mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modul_projekt/SSD1306.h
+	<stdio.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+
+1628629140 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modul_projekt/SSD1306.c
+	<stdio.h>
+	"SSD1306.h"
+	<stdio.h>
+	<stdarg.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"i2c.h"
+
+1651502695 source:/mnt/a4b5d085-eea2-4a2e-847d-8e6738b9fd2c/faks/3. letnik/modul b: programiranje vgrajenih sistemov/modul_projekt/utils.c
+	"utils.h"
+	"config.h"
+	"lcd.h"
+

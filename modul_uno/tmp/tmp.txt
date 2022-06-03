@@ -1,0 +1,159 @@
+/*
+static void butLed (void *pcParameters) {
+    while (1) {
+        ledSet(LEDR);
+        ledClr(LEDB);
+        ledClr(LEDG);
+        ledClr(LEDsys);
+        /*
+        changePriority("buttons_n_leds", 2);
+        changePriority("lcd_dispaly", 1);
+        */
+
+}
+/*
+static void lcd (void *pcParameters) {
+    while (1) {
+        ledClr(LEDR);
+        ledSet(LEDB);
+        ledClr(LEDG);
+        ledClr(LEDsys);*/
+/*
+        changePriority("lcd_dispaly", 2);
+        changePriority("oled_display", 1);
+        *//*
+    }
+}
+/*
+static void oled (void *pcParameters) {
+    while (1) {
+        ledClr(LEDR);
+        ledClr(LEDB);
+        ledSet(LEDG);
+        ledClr(LEDsys);
+/*
+        changePriority("oled_display", 2);
+        changePriority("rele_driver", 1);
+        */
+    }
+}
+/*
+static void reles (void *pcParameters) {
+    static int i = 0;
+
+    while (1)
+    {
+
+        if (!i) {
+            ledTog(LEDR);
+        }
+        //ledClr(LEDR);
+        ledClr(LEDG);
+        ledClr(LEDB);
+        ledClr(LEDsys);
+
+        if (i<10000) {
+            i++;
+        } else {
+            i = 0;
+        }
+/*
+        changePriority("rele_driver", 2);
+        changePriority("adc_safty", 1);
+*/
+    }
+}
+/*
+static void adc (void *pcParameters) {
+    static int i = 0;
+
+    while (1)
+    {
+
+        if (!i) {
+            ledTog(LEDR);
+        }
+        //ledClr(LEDR);
+        ledClr(LEDG);
+        ledClr(LEDB);
+        ledClr(LEDsys);
+
+        if (i<10000) {
+            i++;
+        } else {
+            i = 0;
+        }
+/*
+        changePriority("adc_safty", 2);
+        changePriority("buttons_n_leds", 1);
+*/
+    }
+}
+
+/*
+#include <avr/io.h>
+#include <util/delay.h>
+#include "config.h"
+#include "ledNbutton.h"
+#include "utils.h"
+#include "lcd.h"
+#include "SSD1306.h"
+
+
+int main(void)
+{
+    configureLCD();
+    configureLEDs();
+    configureReles();
+    coifigureButtons();
+    cofigureWaterLevel();
+
+    OLED_Init();  //initialize the OLED
+    OLED_Clear(); //clear the display (for good measure)
+
+    int but = 0;
+    int but2 = 0;
+
+    while(1) {
+        OLED_SetCursor(0, 0);
+        OLED_VerticalGraph(3, 100);
+
+        but = getButtonSta(BUTL);
+
+        if (but == 1) {
+            ledSet(LEDB);
+        } else {
+            ledClr(LEDB);
+        }
+
+        but2 = getButtonPrs(BUTR);
+
+        if (but2 == 1) {
+            ledTog(LEDG);
+        }
+
+        ledTog(LEDsys);
+
+        int tt = adc_read();
+
+        if (tt > 200) {
+            ledSet(LEDR);
+        } else {
+            ledClr(LEDR);
+        }
+
+        char num[5];
+
+        sprintf(num, "%d", tt);
+        lcd_set_cursor(0, 1);
+        lcd_print(num);
+
+        _delay_ms(1000);
+    }
+
+    while(1);
+
+    return 0;
+}*/
+
+
